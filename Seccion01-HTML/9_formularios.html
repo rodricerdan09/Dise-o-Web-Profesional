@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+    <body>
+       <form action="recursoEnServidor" method="post">
+           <input type="text" name="nombre" placeholder="Escriba su Nombre" maxlength="20" required>
+           <br>
+           <input type="text" name="DNI" placeholder="Escriba su DNI" maxlength="8" disabled>
+           <br>
+           <input type="email" name="correo" placeholder="Escriba su correo">
+           <br>
+
+           <textarea name="mensaje" id="mensaje" placeholder="Mensaje" cols="30" rows="10"></textarea>
+           <br>
+
+           <label for="pais">País:</label>
+           <select name="pais" id="pais">
+               <option value="argentina">Argentina</option>
+               <option value="españa">España</option>
+               <option value="mexico">Mexico</option>
+           </select>
+           <br>
+           
+           <input type="radio" name="genero" value="hombre" id="hombre">
+                <label for="hombre">Hombre</label>
+           <input type="radio" name="genero" value="mujer" id="mujer">
+                <label for="mujer">Mujer</label>
+            <br>
+            <input type="checkbox" name="terminos" id="terminos">
+                <label for="terminos">Terminos y condiciones</label>
+           <input type="submit" value="Enviar">
+       </form>
+    </body>
+</html>
