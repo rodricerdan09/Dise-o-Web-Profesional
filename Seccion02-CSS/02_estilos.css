@@ -1,0 +1,32 @@
+/*Selector universal (*) 
+    * {
+        color: red;
+     }
+*/
+/*Ejemplo de Selector de Etiqueta*/
+h1, h2, h3 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+/*Ejemplos de Selector Descendente*/
+div p {
+    font-size: 20px;
+    color: black;
+}
+
+div p a {
+    color: red;
+}
+
+/*Ejemplo de Selector de Clase*/
+.grande {
+    font-size: 30px;
+}
+.rojo {
+    color:red;
+}
+

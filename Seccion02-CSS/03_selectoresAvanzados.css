@@ -1,0 +1,21 @@
+/*Selector Hijos directos*/
+div > p {
+    font-size: 20px;
+}
+
+/*Selector de Atributos
+    input[type] {}
+
+    input[type="text"] {}
+*/
+
+/*Herencia*/
+body {
+    font-size: 20px;
+    color: blue;
+}
+
+article {
+    font-size: 10px;
+    color: black;
+}
