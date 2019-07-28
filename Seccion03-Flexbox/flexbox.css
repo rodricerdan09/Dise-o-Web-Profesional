@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+.container {
+	width: 80%;
+	max-width: 700px;
+	/*height: 500px;*/
+	background: #212d40;
+
+    /*Propiedades de flexbox para el contenedor padre*/
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+    /*flex-flow: column-reverse wrap;*/
+
+    justify-content:space-between;
+    
+    /*align-items:flex-start;*/
+
+    align-content:center; /*Esta propiedad solo funciona cuando hay mas de una linea de elementos.*/
+}
+
+.caja {
+	width: 100px;
+	height: 100px;
+    text-align: center;
+	background: #f79256;
+	margin: 20px;
+	padding: 20px;
+	font-size: 40px;
+    color: #fff;
+
+    /*order: 0;*/
+
+    /*flex-grow:1;
+    flex-shrink:1;
+    flex-basis:200px*/
+
+    flex:1 1 auto;/*Es un atajo para flex-grow, flex-shrink y flex-basis*/
+}
+
+.dos {
+    align-self:stretch;
+    height: auto;
+} 
