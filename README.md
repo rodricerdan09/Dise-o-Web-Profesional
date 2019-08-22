@@ -1,6 +1,6 @@
-# Practica-de-Curso-Diseño-Web-Profesional
+# Professional-Web-Design-Course-Practice
 
-Repositorio con mi practica con:
+Repository with my practice with:
 #HTML
 #CSS
 #Javascript
